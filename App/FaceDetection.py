@@ -11,3 +11,8 @@ detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_
 
 for eachObject in detections:
     print(eachObject["name"] , " : " , eachObject["percentage_probability"] )
+
+
+
+
+
