@@ -1,6 +1,7 @@
 from imageai.Detection import ObjectDetection
 import os
 
+
 execution_path = os.getcwd()
 
 detector = ObjectDetection()
