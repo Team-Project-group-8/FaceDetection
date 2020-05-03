@@ -14,7 +14,7 @@ detector.loadModel()
 
 detector.detectObjectsFromVideo(camera_input=camera,
                                         output_file_path=os.path.join(execution_path, "web_face"),
-                                        frames_per_second=30,
+                                        frames_per_second=20,
                                         minimum_percentage_probability=40,
                                         log_progress=True,
-                                        frame_detection_interval=15)
+                                        frame_detection_interval=1)
